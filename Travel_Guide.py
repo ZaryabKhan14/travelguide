@@ -20,7 +20,7 @@ center = solara.reactive(center_default)
 markers = solara.reactive([])
 
 url = ipyleaflet.basemaps.OpenStreetMap.Mapnik.build_url()
-openai = OpenAI(api_key="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")
+openai = OpenAI(api_key="")
 model = "gpt-4-1106-preview"
 app_style = (HERE / "style.css").read_text()
 
